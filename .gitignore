@@ -1,10 +1,18 @@
+# Terrform files
+
 .terraform
 */.terraform
 *.tfstate
 */.tfstate
 .terraform.lock.hcl
 */.terraform.lock.hcl
-*.pem
-*/*.pem
 *.tfvars
 */*.tfvars
+*/terraform.tfstate.backup
+
+# Private/Public keys
+
+*.pem
+*/*.pem
+ssh-homelab-tf
+todo.md
